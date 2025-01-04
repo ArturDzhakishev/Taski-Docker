@@ -98,7 +98,7 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-            - uses: action/checkout@v3
+            - uses: actions/checkout@v3
             - name: Set up NodeJS
             # Это готовый воркфлоу для установки Node.js на раннер
               uses: actions/setup-node@v3
@@ -154,3 +154,4 @@ jobs:
                 push: true
                 # Тут вместо username должен быть ваш логин на Docker Hub
                 tags: arturdzh/taski_gateway:latest
+    
