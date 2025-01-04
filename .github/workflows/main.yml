@@ -92,4 +92,4 @@ jobs:
                 # В параметре tags задаётся название и тег для образа.
                 # Для каждого пересобранного образа 
                 # устанавливаем тег latest, чтобы потом
-                tags: arturdzhakishev/taski_backend:latest
+                tags: arturdzh/taski_backend:latest
